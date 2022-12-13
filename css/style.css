@@ -4,18 +4,19 @@
 
 #container{
     overflow: auto;
-    /* margin: auto; */
     display: inline-block;
-    flex-direction:row;
-    justify-content: space-around;
-    width: 800px;
+    width: 700px;
     height: auto;
 }
 
 .gridSize{
     border-radius: 5px;
     display: inline-block;
-    margin: 5px;
-    width: 4%;
+    margin: 0.5px;
+    width: 40px;
     height: 2em;
+}
+
+.gridSize:hover{
+    background-color: black;
 }
