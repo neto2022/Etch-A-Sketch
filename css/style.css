@@ -1,22 +1,17 @@
-#container, .gridSize{
-    border: 1px solid black;
+.gridSize2{
+    border: 0.1px solid black;
 }
 
 #container{
-    overflow: auto;
-    display: inline-block;
-    width: 700px;
+    display: flex;
+    width: auto;
     height: auto;
 }
 
-.gridSize{
-    border-radius: 5px;
-    display: inline-block;
-    margin: 0.5px;
-    width: 40px;
-    height: 2em;
+.gridSize2{
+    height: 20px;
+    width: 20px;
 }
-
-.gridSize:hover{
+.gridSize2:hover{
     background-color: black;
 }
