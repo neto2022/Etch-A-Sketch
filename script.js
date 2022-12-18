@@ -1,12 +1,16 @@
 const div1 = document.getElementById('container');
-var manygrids = 16;
+let manygrids = 64;
 for (let i = 0; i < manygrids; i++) {
-    var grid = document.createElement('div');
+    let grid = document.createElement('div');
     grid.className = 'gridSize';
     for (let j = 0; j < manygrids; j++) {
-        var grid2 = document.createElement('div');
-        grid.appendChild(grid2);
+        let grid2 = document.createElement('div');
         grid2.className = 'gridSize2';
+        grid2.addEventListener("mouseenter", () => {
+            grid2.style.backgroundColor = 'black';
+        })
+        grid.appendChild(grid2);
     }
-    div1.appendChild(grid)
+    div1.appendChild(grid);
 }
+

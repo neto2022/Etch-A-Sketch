@@ -1,17 +1,28 @@
-.gridSize2{
-    border: 0.1px solid black;
+html{
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
 }
 
 #container{
     display: flex;
     width: auto;
     height: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#container,.gridSize2{
+    border: 0.1px solid black;
 }
 
 .gridSize2{
     height: 20px;
     width: 20px;
-}
-.gridSize2:hover{
-    background-color: black;
 }
