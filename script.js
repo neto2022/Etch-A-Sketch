@@ -1,5 +1,5 @@
 const div1 = document.getElementById('container');
-let manygrids = 64;
+let manygrids = 16;
 for (let i = 0; i < manygrids; i++) {
     let grid = document.createElement('div');
     grid.className = 'gridSize';
@@ -13,4 +13,3 @@ for (let i = 0; i < manygrids; i++) {
     }
     div1.appendChild(grid);
 }
-
